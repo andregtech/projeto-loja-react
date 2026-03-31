@@ -4,7 +4,7 @@
 - Este projeto é uma loja virtual simples desenvolvida com PrimeReact e Axios, que exibe um formulário de cadastro, produtos em um card estilizado e permite adicionar novos produtos, integrando o consumo de uma API externa com a funcionalidade de gerenciamento de inventário em tempo real
   
   
-✨ Funcionalidades
+## ✨ Funcionalidades
 - Vitrine Interativa: Uma página inicial elegante onde o cliente pode explorar as obras. Cada item possui um efeito de sombra ao passar o mouse
 - Detalhes do Produto: Ao clicar em "Ver Detalhes", um componente Dialog (modal) é disparado, exibindo a descrição técnica da obra e uma imagem ampliada sem recarregar a página
 - Cadastro de Acervo: Uma seção exclusiva para adicionar novos itens. Ao preencher o formulário, a nova arte é injetada instantaneamente no topo da galeria através do gerenciamento de estado (useState)
