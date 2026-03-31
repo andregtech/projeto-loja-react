@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# MINI LOJA VIRTUAL
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🔗 Sobre
+- Este projeto é uma loja virtual simples desenvolvida com PrimeReact e Axios, que exibe um formulário de cadastro, produtos em um card estilizado e permite adicionar novos produtos, integrando o consumo de uma API externa com a funcionalidade de gerenciamento de inventário em tempo real.
+  
+  
+✨ Funcionalidades
+- Vitrine Interativa: Uma página inicial elegante onde o cliente pode explorar as obras. Cada item possui um efeito de sombra ao passar o mouse
+- Detalhes do Produto: Ao clicar em "Ver Detalhes", um componente Dialog (modal) é disparado, exibindo a descrição técnica da obra e uma imagem ampliada sem recarregar a página
+- Cadastro de Acervo: Uma seção exclusiva para adicionar novos itens. Ao preencher o formulário, a nova arte é injetada instantaneamente no topo da galeria através do gerenciamento de estado (useState)
+  
+  
+## 🛠️ Tecnologias Utilizadas
+- React JS
+- PrimeReact
+- PrimeFlex
+- Axios
+- JavaScript ES6+
+- Node.js (v18.17.0)
+  
+  
+## 📂 Estrutura do Projeto
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Dentro da pasta do projeto, temos os seguintes arquivos:  
+  
+projeto-loja-react/  
+│  
+├── public/  
+│   ├── index.html → Arquivo principal da página  
+│   ├── manifest.json → Configuração do manifesto  
+│   └── robots.txt → Configuração para web crawlers  
+│  
+├── src/  
+│   ├── index.js → Ponto de entrada do React  
+│   ├── index.css → Estilos globais da página  
+│   ├── App.js → Componente principal da aplicação  
+│   ├── App.css → Estilos do componente App  
+│   ├── App.test.js → Testes da aplicação  
+│   ├── reportWebVitals.js → Relatório de performance  
+│   ├── setupTests.js → Configuração de testes  
+│   ├── components/  
+│   │   ├── ProductCard.js → Componente de cartão de produto  
+│   │   ├── ProductForm.js → Componente de formulário de produto  
+│   │   └── ProductList.js → Componente de listagem de produtos  
+│   └── views/  
+│       └── Storefront.js → Página principal da loja  
+│  
+├── package.json → Configuração do projeto e dependências  
+├── package-lock.json → Arquivo gerado automaticamente pelo npm  
+└── README.md → Explicação do projeto  
+  
+  
+## 📦 Instalação
+- Clone o repositório (se aplicável):
+```bash
+git clone https://github.com/andregtech/projeto-loja-react
+```
+- Instale as dependências:
+```bash
+- npm install
+```
+- Entre na pasta do projeto:
+```bash
+cd projeto-loja-react
+```
+  
+  
+## ▶️ Execução
+- Inicie a aplicação, execute o seguinte comando no terminal  
+(o terminal utilizado no projeto foi o Bash no VScode):
+```bash
+npm run start
+```
+A página no navegador abre no localhost: http://localhost:3000/
+  
+  
+## 👨‍💻 Identificação
+- Desenvolvido por **André Willamy Dos Santos Moraes** - Aluno Full Stack - Geração Tech 3.0
+  
+  
+## ⚖️ Licença
+- Este projeto foi desenvolvido em março de 2026, exclusivamente para fins educacionais como parte dos requisitos obrigatórios da **Geração Tech 3.0**
+- A permissão de uso e avaliação é restrita à equipe docente e de monitoria, sob orientação de **Nazaré Almeida**, visando a validação de competências em Back-end para a obtenção do título no curso **Full Stack**
