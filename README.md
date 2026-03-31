@@ -1,7 +1,7 @@
 # MINI LOJA VIRTUAL
 
 ## 🔗 Sobre
-- Este projeto é uma loja virtual simples desenvolvida com PrimeReact e Axios, que exibe um formulário de cadastro, produtos em um card estilizado e permite adicionar novos produtos, integrando o consumo de uma API externa com a funcionalidade de gerenciamento de inventário em tempo real.
+- Este projeto é uma loja virtual simples desenvolvida com PrimeReact e Axios, que exibe um formulário de cadastro, produtos em um card estilizado e permite adicionar novos produtos, integrando o consumo de uma API externa com a funcionalidade de gerenciamento de inventário em tempo real
   
   
 ✨ Funcionalidades
