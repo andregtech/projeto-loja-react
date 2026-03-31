@@ -57,7 +57,7 @@ git clone https://github.com/andregtech/projeto-loja-react
 ```
 - Instale as dependências:
 ```bash
-- npm install
+npm install
 ```
 - Entre na pasta do projeto:
 ```bash
